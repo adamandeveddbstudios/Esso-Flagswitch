@@ -90,8 +90,9 @@ button,div,img,svg,video{
 #logo{
   position: absolute;
   top: 197px;
-  left: 35px;
-  width: 91px;
+  width: 64px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 #person1 {
   left: -20px;

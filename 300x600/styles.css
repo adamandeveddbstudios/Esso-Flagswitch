@@ -119,8 +119,9 @@ video {
   src: url("./subset-EMprint-Bold.woff");
 }
 #logo{
-  width: 89px;
-  left: 105px;
+  width: 70px;
+  left: 50%;
+  transform: translateX(-50%);
   top: 183px;
 }
 #person2 {
@@ -168,7 +169,7 @@ video {
 }
 
 #cta img {
-  height: 15px;
+  height: 14px;
   width: auto;
   margin-left: 5px;
   margin-top: 4px;

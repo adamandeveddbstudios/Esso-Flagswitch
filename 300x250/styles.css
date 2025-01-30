@@ -124,7 +124,7 @@ video {
   top: -2px;
 }
 #logo{
-  width: 66px;
+  width: 64px;
   left: 178px;
   top: 183px;
 }
@@ -168,6 +168,6 @@ video {
 #cta img {
   height: 12px;
   width: auto;
-  margin-left: 3px;
+  margin-left: 4px;
   margin-top: 3px;
 }
