@@ -135,19 +135,10 @@ video {
   height: auto;
 }
 
-.textContainer {
+#text1, #text2, #text3 {
   top: 35px;
-  width: 300px;
-  height: 128px;
-  padding-left: 15px;
-  padding-right: 15px;
-  display: flex;
-  flex-direction: column;
+  width: 100%;
   align-items: center;
-}
-
-.textContainer > * {
-  position: relative;
   text-align: center;
   font-family: "EMBold";
   font-size: 27px;

@@ -110,24 +110,18 @@ video {
   src: url("./subset-EMprint-Bold.woff");
 }
 
-.textContainer {
+#text1, #text2, #text3 {
   top: 21px;
-  left: 542px;
-  width: 375px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.textContainer > * {
-  position: relative;
+  left: 243px;
+  width: 100%;
   font-family: "EMBold";
   text-align: center;
   font-size: 28px;
   color: #0c479d;
   overflow: visible;
+  letter-spacing: -0.2px;
 }
+
 
 #cta {
   font-family: "EMBold";
@@ -138,6 +132,8 @@ video {
   padding: 8px 36px 8px 22px;
   border-radius: 29px;
   background: #fe000c;
+  right: 183px;
+  top: 90px;
 }
 
 #cta img {

@@ -121,35 +121,24 @@ video {
 }
 #person2{
   left: -33px;
-  top: -2px;
+  top: -1px;
 }
 #logo{
   width: 64px;
   left: 178px;
   top: 183px;
 }
-.textContainer {
-  top: 17.5px;
-  width: 134px;
-  left: 144px;
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.textContainer > * {
-  position: relative;
-  text-align: center;
+#text1, #text2, #text3 {
+  top: 17.9px;
+  left: 61px;
   font-family: "EMBold";
   font-size: 21px;
   color: #0c479d;
-  overflow: visible;
+  letter-spacing: -0.2px;
   line-height: 24px;
-}
-.textContainer #text3{
-  font-size: 20.8px;
-  line-height: 23.8px;
+  width: 100%;
+  text-align: center;
+  overflow: visible;
 }
 
 #cta {

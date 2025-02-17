@@ -24,7 +24,7 @@ function animate() {
   tl.addLabel('frame1', 0)
   tl.addLabel('frame2', 4)
   tl.addLabel('frame3', 9)
-  tl.to('#text1', {autoAlpha: 1, duration: 0.5, ease: easing}, 'frame1')
+    tl.to('#text1', {autoAlpha: 1, duration: 0.5, ease: easing}, 'frame1')
   tl.to('#text1', {autoAlpha: 0, duration: 0.5, ease: easing}, 'frame2-=0.5')
   tl.to('#person1', {autoAlpha: 0, duration: 0.5, ease: easing}, 'frame2-=0.5')
   tl.to('#person2', {autoAlpha: 1, duration: 0.5, ease: easing}, 'frame2')

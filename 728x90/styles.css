@@ -117,23 +117,24 @@ video {
   transform: translateY(-50%);
 }
 
-.textContainer {
+#text1, #text2, #text3 {
   top: 17px;
-  left: 220px;
-  width: 400px;
-  height: 53px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.textContainer > * {
-  position: relative;
+  left: 55px;
+  width: 100%;
   font-family: "EMBold";
   text-align: center;
   font-size: 21px;
   color: #0c479d;
   overflow: visible;
+  letter-spacing: -0.2px;
+}
+#text2{
+  top: 30px;
+}
+#text3{
+  top: 8px;
+  left: -83px;
+  line-height: 24px;
 }
 .last{
   top: 19px;

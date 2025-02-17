@@ -114,19 +114,9 @@ button,div,img,svg,video{
   height: auto;
 }
 
-.textContainer {
+#text1, #text2, #text3 {
   top: 36px;
-  width: 160px;
-  padding-left: 10px;
-  padding-right: 10px;
-  height: 136px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.textContainer > * {
-  position: relative;
+  width: 100%;
   text-align: center;
   font-family: "EMBold";
   font-size: 21px;
@@ -134,6 +124,7 @@ button,div,img,svg,video{
   overflow: visible;
   line-height: 24px;
 }
+
 
 #cta {
   font-family: "EMBold";
